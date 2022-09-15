@@ -1,0 +1,52 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  width: 100vw;
+  height: 100vh;
+}
+
+.dashboard > header {
+  flex: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+  padding: 10px;
+}
+
+.dashboard > header h3 {
+  display: block;
+  font: 1.5rem sans-serif;
+  margin-block: 0;
+}
+
+.dashboard > header button {
+  display: block;
+  font: 1rem sans-serif;
+  padding: 8px 15px;
+}
+
+.dashboard > table {
+  width: 100%;
+  max-width: 800px;
+  margin: 10px;
+  border-collapse: collapse;
+}
+
+.dashboard > table th {
+  border: 1px solid #777777;
+  padding: 10px 13px;
+  font: 1.2rem sans-serif;
+  font-weight: 700;
+  background: #eeeeee;
+}
+
+.dashboard > table td {
+  border: 1px solid #777777;
+  padding: 8px 13px;
+  font: 1rem sans-serif;
+  color: #777777;
+}
